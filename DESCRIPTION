@@ -1,8 +1,8 @@
 Package: apidttm
-Title: Convert datetime strings to <dttm> format
+Title: Convert API datetime strings to <dttm> format
 Version: 0.0.1
 Authors@R: person("Ross", "Ireland", email = "rosseireland@gmail.com", role = c("aut", "cre"))
-Description: Convert datetime strings to <dttm> format
+Description: Convert API datetime strings to <dttm> format
 Imports: magrittr, stringr, lubridate
 License: MIT
 Encoding: UTF-8

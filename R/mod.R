@@ -1,6 +1,6 @@
 
 
-#' Convert datetime strings to <dttm> format
+#' Convert API datetime strings to <dttm> format
 #'
 #' Works with AWS and Github at this stage
 #'
