@@ -1,7 +1,7 @@
 
 #' @export
 
-test_fun <- function(x, y) {
+test <- function(x, y) {
   list(
     mean = mean(c(x, y)),
     max = max(c(x, y)),
