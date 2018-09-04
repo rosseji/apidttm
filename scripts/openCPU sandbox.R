@@ -2,11 +2,17 @@
 library(httr)
 library(magrittr)
 
-??curl
-
-response <- GET(
-  url = "https://cloud.opencpu.org/ocpu/library/"
+response <- POST(
+  url = "https://cloud.opencpu.org/ocpu/github/rosseji/apidttm/R/test"
 )
+response$status_code
+
+response <- POST(
+  url = "https://cloud.opencpu.org/ocpu/github/rosseji/apidttm/R/test/json",
+  body = list(x = 6, y = 1)
+)
+
+response$url
 
 x <- GET(
   url = "https://cloud.opencpu.org/ocpu/library/datasets/R/mtcars/json?digits=0"
