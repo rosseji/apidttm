@@ -6,7 +6,7 @@
 #'
 #' @param x datetime character string
 #'
-#' @return
+#' @return dttm object
 #' @importFrom magrittr %>%
 #' @importFrom stringr str_replace_all
 #' @importFrom lubridate parse_date_time
